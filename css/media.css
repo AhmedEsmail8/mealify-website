@@ -1,0 +1,147 @@
+/* as8ar mn 640 */
+
+@media (min-width: 400px) {
+    .social-icons li{
+        padding: 15px 20px;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .header-text h1 {
+        font-size: 65px;
+    }
+    
+}
+
+
+/* md */
+@media (min-width: 768px) {
+    .chef-item-container {
+        width: 50%;
+    }
+
+    #email,
+    #name {
+        width: 49%;
+        margin-top: 0;
+    }
+
+    .gallery-img{
+        width: 40%;
+    }
+
+    .gallery .container{
+        height: 142vw;
+    }
+    .contact-item-text{
+        left: 15%;
+    }
+    .contact-item span{
+        font-size: 16px;
+    }
+    .contact-item h3{
+        font-size: 20px;
+    }
+
+    .header-buttons {
+        flex-direction: row;
+        column-gap: 30px;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .contact-item {
+        width: 50%;
+    }
+    .border-right{
+        border-right: 20px solid #fff;
+    }
+
+    .gallery-img{
+        width: 30%;
+    }
+
+    .gallery .container{
+        height: 75vw;
+    }
+
+    
+    
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    nav i {
+        visibility: hidden;
+    }
+
+    nav ul {
+        visibility: visible;
+    }
+
+    .header {
+        height: 100vh;
+    }
+
+    .header .header-text {
+        width: 40%;
+        float: left;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .header-img {
+        float: right;
+        width: 40%;
+    }
+
+    .header .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .header-text button {
+        border-radius: 0px 20px 20px;
+    }
+
+    .header-buttons {
+        justify-content: flex-start;
+    }
+
+    .chef-item-container {
+        width: 33.33%;
+    }
+
+    .contact-item-text {
+        left: 10%;
+    }
+    .social-media,
+    .footer-details {
+        width: 25%;
+        margin-top: 0;
+    }
+
+    .subscribe{
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .gallery-img{
+        width: 30%;
+    }
+
+}
+
+/* lg */
+@media (min-width: 1536px) {
+    
+}
